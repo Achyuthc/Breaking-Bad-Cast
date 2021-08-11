@@ -1,0 +1,41 @@
+.social-links .fa {
+  height: 70px;
+  width: 70px;
+  padding-top: 15px;
+  font-size: 30px;
+  line-height: 40px;
+  border: 1px solid #e3e0cf;
+  margin: 40px 5px 0;
+  color: #e3e0cf;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.social-links .fa:hover {
+  background: #e3e0cf;
+  color: #222222;
+  transform: translateY(-7px);
+}
+
+.social-links p {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+@keyframes social {
+  0% {
+    top: 500px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.social-links {
+  color: #fff;
+  background-color: #222222;
+  text-align: center;
+  position: relative;
+  animation-name: social;
+  animation-duration: 1s;
+}

@@ -1,0 +1,35 @@
+nav {
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: black;
+}
+.pagination {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+}
+
+.page-item {
+  position: relative;
+  height: 60px;
+  width: 60px;
+
+  border: 1px solid #032202;
+}
+.page-link {
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 10px;
+}
+.page-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.page-item:hover {
+  background-color: #d3a409;
+  color: white;
+}

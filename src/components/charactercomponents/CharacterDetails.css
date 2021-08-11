@@ -1,0 +1,77 @@
+.img-of-item {
+  display: flex;
+  justify-content: center;
+}
+.character-details {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  size: 40px;
+  position: relative;
+  text-shadow: 5px 5px 10px #888888;
+  animation-name: character-details;
+  animation-duration: 3s;
+  margin-bottom: 40px;
+}
+@keyframes character-details {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.name-of-item {
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.item-img {
+  width: 375px;
+  height: 500px;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.describe,
+.perticular {
+  flex-basis: 50%;
+  text-align: center;
+}
+.quotes {
+  display: block;
+  flex-basis: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+.perticular {
+  font-size: 35px;
+}
+
+.describe {
+  font-size: 25px;
+}
+.describe > span {
+  margin-left: 20px;
+}
+
+.quote {
+  font-size: 25px;
+  text-align: center;
+  display: block;
+}
+
+.quote > .a {
+  margin: auto;
+  margin-top: 30px;
+}

@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+  animation-name: search;
+  animation-duration: 1s;
+}
+.header > .logo {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.header > .logo > img {
+  position: absolute;
+  left: 25%;
+
+  display: flex;
+  width: 284px;
+  height: 177px;
+}
+.font-awesome {
+  flex-basis: 19%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 177px;
+  width: 200px;
+}
+.icon {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.font-awesome > h1 {
+  color: white;
+  size: 40px;
+  text-shadow: 2px 2px #888888;
+}

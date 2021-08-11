@@ -1,0 +1,33 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: search;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@keyframes search {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.search-form > .form-control {
+  height: 80px;
+  width: 500px;
+  border-radius: 40px;
+  direction: none;
+  border: none;
+  text-align: center;
+  border: 3px solid #033f01;
+  background-color: #ece5dd;
+  font-size: 40px;
+}
+.search-form > .form-control:focus {
+  outline: none;
+}

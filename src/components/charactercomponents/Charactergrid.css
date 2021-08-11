@@ -1,0 +1,8 @@
+.character-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  row-gap: 35px;
+  justify-content: space-around;
+  width: 1000px;
+}
