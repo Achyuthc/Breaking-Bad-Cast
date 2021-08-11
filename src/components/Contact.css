@@ -1,4 +1,4 @@
-.social-links .fa {
+.social-links > a > .fab {
   height: 70px;
   width: 70px;
   padding-top: 15px;
@@ -10,14 +10,16 @@
   cursor: pointer;
   transition: 1s;
 }
-
-.social-links .fa:hover {
+.social-links > a {
+  margin-left: 25px;
+}
+.social-links > a > .fab:hover {
   background: #e3e0cf;
   color: #222222;
   transform: translateY(-7px);
 }
 
-.social-links p {
+.social-links > p {
   font-size: 25px;
   padding-top: 20px;
   margin-top: 40px;
